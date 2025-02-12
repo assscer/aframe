@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Frame Project</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <a-scene>
+        <a-entity id="my-entity" my-custom-component></a-entity>
+        <a-camera position="0 1.6 2">
+            <a-cursor></a-cursor>
+        </a-camera>
+    </a-scene>
+
+    <script src="components/my-component.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
