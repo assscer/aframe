@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: #f8f9fa; 
+    font-family: Arial, sans-serif;
+}
+
+.lil-gui {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+a-scene {
+    width: 100vw;
+    height: 100vh;
+}
+
+a-text {
+    font-weight: bold;
+}
+
+a-box, a-sphere {
+    shadow: true;
+}
